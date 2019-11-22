@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.lillesek {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+} 
+
+.sek1 {
+	background-color: #746A6A;
+	
+}
+
+.flaskebla {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.sek2 {
+	background-color: #A2A2A2;
+}
+
+.pakke1 {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.sek3 {
+	background-color: #746A6A;
+}
+
+.pakke2 {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.knap {
+	Padding:10px;
+	background-color: #383434;
+	border-radius: 50px;
+	width: 70px;;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin-top: 2em;
+	font-size: 20px;
+	float:right;
+	grid-column: 8 / 9;
+}
+
+.knap:hover {
+	background-color: #A2A2A2;
+}
+
+
+.tekster {
+margin-left: 2em;
+grid-column: 1 / 7;
+color: white;
+	
+}
+
+
+
+

@@ -1,0 +1,91 @@
+
+
+
+* {box-sizing: border-box}
+
+/*sætter skrifttypen på alle sider*/
+body {
+	font-family: Open Sans;
+	margin:0px;
+}
+
+/*styling af selve navigationsbaren */
+.navbar {
+  width: 100%; /*bredden */
+  background-color: #555; /*farven på navigationsbaren*/
+  overflow: auto; /* hvad der sker hvis der er for meget indholde*/
+	
+}
+
+/*styler selve links i navnbar*/
+.navbar a {
+  float: left; /*elementerne ligger til venstre*/
+  padding: 12px; /*fyld omkring teksten er 12 px*/
+  color: white; /*farven på teksten er hvid*/
+  text-decoration: none; /*links har ikke streger under*/
+  font-size: 17px; /*skriftstørrelsen */
+  width: 25%; /*bredden på hver link er 1/4 del af hele navbar*/
+  text-align: center; /*teskten står i midten */
+	
+}
+
+/*styler links i navbar når musen holdes over*/
+.navbar a:hover {
+  background-color: #000; /*baggrundsfarven skifter*/
+}
+
+/* styling af billedei i header */
+.logo {
+	display: block;
+	margin-left:auto; /*begge margin auto så billedet er i midten*/
+	margin-right:auto;
+
+} 
+
+/*baggrundsfarven på headeren */
+.main-head {
+	background-color: #746A6A; /*ændrer baggrundfarven på hele headeren*/
+}
+
+
+/*laver wrapper til et grid med 12 kollonner*/
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(8, [col-start] 1fr) ;
+	
+	
+}
+
+
+.wrapper > *{
+	grid-column: col-start / span 12;
+}
+
+
+/*styling af selve footer */
+.footerclass {
+  width: 100%; /*bredden */
+  background-color: #555; /*farven på navigationsbaren*/
+  overflow: auto; /* hvad der sker hvis der er for meget indholde*/	
+}
+
+/*styler selve links i footer*/
+.footerclass a {
+  float: left; /*elementerne ligger til venstre*/
+  padding: 12px; /*fyld omkring teksten er 12 px*/
+  color: white; /*farven på teksten er hvid*/
+  text-decoration: none; /*links har ikke streger under*/
+  font-size: 10px; /*skriftstørrelsen */
+  width: 25%; /*bredden på hver link er 1/4 del af hele navbar*/
+  text-align: center; /*teskten står i midten */
+}
+	
+/*ændrer baggrundsfarve når musen holdes over */
+
+.footerclass a:hover {
+  background-color: #000;
+}
+
+main {
+	min-height: calc(100vh - 47px - 90px - 38px)
+}

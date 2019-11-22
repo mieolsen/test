@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+.sek4 {
+  background-color: #746A6A; /*farven i baggrunden er grå */
+  text-align: center; /*centere teksten i midten */
+  color: white;
+  padding-bottom: 2em; /*fyld under teksten er 2em */
+  padding-top: 2em; /*fyld over teksten er 2em*/
+  position: relative;
+}
+.tekst {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.flaskebil1 {
+  display: block; /* fremviser et element som en blok. Dvs. den går ned på ny linje og optager hele den nye linje */
+  margin-left: auto; /*auto placerer elementet vandret og centreret inde i den blok den befinder sig i */
+  margin-right: auto;
+}
+.sek5 {
+  background-color: #009FB9;
+  color: white;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.overskrifter {
+  text-align: center;
+}
+.beskrivelse {
+  margin-right: 2em;
+  margin-left: 2em;
+}
+.sek6 {
+  background-color: #A2A2A2;
+  color: white;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.patronbill {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sek7 {
+  background-color: black;
+  color: white;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.fingerlas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

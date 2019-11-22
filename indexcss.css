@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.forside {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	
+}
+
+body {background-color: #746A6A;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.centered {
+  position:absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

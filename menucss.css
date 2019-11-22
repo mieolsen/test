@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+
+.wrapper {
+
+	font-family:  "open-sans";
+	background-color: #746A6A;
+}
+
+
+
+
+.main-head {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+}
+.main-nav {
+  grid-area: nav;
+}
+.side {
+  grid-area: sidebar;
+}
+.ad {
+  grid-area: ad;
+}
+.main-footer {
+  grid-area: footer;
+}
+
+
+.wrapper {
+	display: grid;
+	
+	grid-template-areas: 
+		"header"
+		"nav"
+		"content"
+		"sidebar"
+		"ad"
+		"footer"
+}
+
+
+*/
+
+
+*{
+	background-color: #746A6A;
+}
+
+.logo {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+} 
+
+
+
+/* Style the navigation menu */
+.main-nav {
+  width: 100%;
+  background-color: #A2A2A2;
+  
+}
+
+/* Navigation links */
+.main-nav a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four equal-width links. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+.main-nav a:hover {
+  background-color: #383434;
+}
+
+
+
+
+/*
+.main-nav li{
+    display:inline;
+	
+}
+.main-nav a{
+    display:inline-block;
+    padding:20px;
+	text-decoration: none;
+	color: white;
+	
+}
+
+.main-nav a:hover {
+	background-color:#383434;
+}
+
+*/
+
+.main-footer {
+text-align:center;
+background:#A2A2A2;
+
+}
+.main-footer li {
+display:inline;
+}
+.main-footer a {
+color:white;
+text-decoration:none; 
+padding:10px 15px; 
+font-size: 10px;
+	width:20px;
+}
+
+
+.main-footer a:hover {
+	background-color:#383434;
+}
+
+
+/*-------------------------------------------------Forside indhold--------------------------------------------------------*/
+
+
+.forside {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
